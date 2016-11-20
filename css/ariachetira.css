@@ -1,0 +1,54 @@
+header {
+    min-height: 50%;
+  }
+
+.btn-primary, .bg-primary, .navbar-default.affix, .navbar.navbar-default.navbar-fixed-top.affix {
+    background-color:#058105;
+}
+
+.navbar-default .nav>li.active>a, .navbar-default .nav>li.active>a:focus {
+    color: white!important;
+    text-decoration: underline;
+  }
+
+  .navbar-default.affix .nav>li>a:focus:hover, .navbar-default.affix .nav>li>a:hover {
+    text-decoration: underline;
+    color:black;
+}
+
+div.header-content-inner {
+    background-color: rgba(34, 34, 34, 0.19);
+    padding: 10px;
+}
+
+.navbar-brand {
+    color: #058105 !important;
+    background-color:white;
+  }
+
+  .btn-primary.active, .btn-primary.focus, .btn-primary:active, .btn-primary:focus, .btn-primary:hover, .open>.dropdown-toggle.btn-primary {
+    color: #fff;
+    background-color: #058105;
+    border-color: #035A03;
+}
+
+nav.affix {
+    border-color: #e7e7e7 !important;
+}
+
+hr {
+  border-color: #058105;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.lead {
+    font-family: Georgia,Cambria,"Times New Roman",Times,serif;
+    font-style: normal;
+    font-size: 23px;
+    line-height: 1.58;
+}
+.navbar-default .navbar-toggle {
+    border-color: #ddd;
+    background: #ddd;
+}
